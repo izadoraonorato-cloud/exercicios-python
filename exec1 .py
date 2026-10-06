@@ -1,9 +1,9 @@
 while True: # O loop infinito foi iniciado
     comando = input ("digite 'sair' para desligar o motor: ")
  
-    se comando. inferior () == 'sair':
-        imprimir ("motor desligado")
+    if comando.lower () == 'sair':
+        print ("motor desligado")
         break # A trava de sequência foi cionada!
-    outro :
+    else :
         print ("o motor continua a rodar...")
        
